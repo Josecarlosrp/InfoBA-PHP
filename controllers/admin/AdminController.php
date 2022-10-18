@@ -1,10 +1,10 @@
 <?php
 
-namespace controllers;
+namespace controllers\admin;
 
 use libs\Controller;
 
-class HomeController extends Controller
+class AdminController extends Controller
 {
     public function __construct()
     {
@@ -12,6 +12,7 @@ class HomeController extends Controller
     }
 
     public function index(){
+        $dashboard = new DashboardController;
         $this->home();
     }
 
