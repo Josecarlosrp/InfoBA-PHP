@@ -19,7 +19,7 @@ class ErrorsController extends Controller
         $this->view->render('errors/401', $this->data);
     }
 
-    public function forbiffen(){
+    public function forbidden(){
         $this->view->render('errors/403', $this->data);
     }
 

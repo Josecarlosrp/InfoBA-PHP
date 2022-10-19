@@ -1,0 +1,95 @@
+.mensaje-temporal {
+    z-index: 11;
+}
+
+.boton-guardar {
+    color: #ffffff;
+    background-color: #6495EDFF;
+}
+
+.boton-buscar {
+    color: #071fbe;
+    background-color: #e7a457;
+}
+
+.boton-consultar {
+    color: #ffffff;
+    background-color: #2b468a;
+}
+
+.boton-borrar{
+    color: #ffffff;
+    background-color: #bd102f;
+}
+
+.boton-actualizar {
+    color: #ffffff;
+    background-color: #d93396;
+}
+.boton-add {
+    color: #000000;
+    background-color: #74d2ee;
+}
+
+.boton-cancelar {
+    color: #000000;
+    background-color: #ee7171;
+}
+
+.boton-detalle {
+    color: #000000;
+    background-color: #EFD71FFF;
+}
+
+.app-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #FFF;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.app-title h1 {
+    font-size: 1.5em !important;
+    color: #222222;
+}
+
+.app-content {
+    background-color: #FFF;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.modal-form {
+    background-color: #ccc;
+}
+.modal-header {
+    background-color: #ccc;
+}
+.modal-title {
+    background-color: #ccc;
+}
+.modal-content {
+    background-color: #fff;
+}
+.modal-footer {
+    background-color: #ccc;
+}
+
+:disabled {
+    background-color: #fcfccd;
+}
+input:disabled {
+    background-color: #fcfccd !important;
+    color: #000000 !important;
+}
+
+input[type=checkbox][disabled]{
+    background-color: #13130f !important;
+}
